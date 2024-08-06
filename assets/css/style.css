@@ -1,0 +1,303 @@
+.section-1 {
+    height: 100dvh;
+    min-height: 700px;
+    background: url(../images/hero_1.jpg.webp) center center/cover;
+}
+.section-1:before {
+    content:"";
+    height: 100dvh;
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.section-1 .header {
+    padding: 45px 0;
+}
+.section-1 .header .logo a {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Abril Fatface", times, serif;
+}
+.section-1 .header .hamburgur-menu {
+    width: 40px;
+    height: 23px;
+    cursor: pointer;
+}
+.section-1 .header .hamburgur-menu .layer {
+    border-bottom: 3px solid #fff;
+}
+.section-1 .section-1-content {
+    top: 45px;
+}
+.section-1 .section-1-content h1 {
+    font-family: "Abril Fatface", times, serif;
+    font-size: 80px;
+}
+.section-1 .section-1-content .subtitle {
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Mukta Mahee", arial, sans-serif;
+}
+.section-1 .section-1-content .subtitle a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);;
+}
+.section-1 .section-1-content .subtitle a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+.section-1 .section-1-content button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-family: 'Mukta Mahee';
+    transition: all 0.3s;
+}
+.section-1 .section-1-content button:hover {
+    background-color: #fff;
+    color:#000;
+}
+.section-1 .scroll-down {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    gap: 5px;
+    font-family: "Mukta Mahee";
+    font-weight: 200;
+    cursor: pointer;
+}
+.section-1 .scroll-down i {
+    transform: rotate(90deg);
+}
+.section-2 .row .s2-content {
+padding: 0 15px 0 48px;
+cursor: pointer;
+}
+.section-2 .row .s2-content .watch-vid:hover i {
+    color: #000;
+    border-color: #000;
+}
+.section-2 .row .s2-content h2 {
+    padding-bottom: 24px;
+}
+.section-2 .row .s2-content p {
+    padding-bottom: 16px;
+}
+.section-2 .row .s2-content .watch-vid i {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #e6e6e6;
+    border-radius: 50%;
+    position: relative;
+    transition: .3s all ease;
+}
+.section-2 .row .s2-content .watch-vid i:before {
+position: absolute;
+left: 40%;
+top: 35%;
+}
+.section-2 .row .s2-content .watch-vid .watch {
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 20;
+}
+.s3-content .item img {
+width: 70px;
+height: auto;
+}
+.s3-content .item h3{
+font-size: 2.8rem;
+}
+.section-4 .slider .arrow {
+transition: all 0.4s ease;
+}
+.section-4 .slider .arrow:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.section-4 .slider .arrow.prev {
+    top: 50%;
+    left:0;
+    margin-left: -55px;
+    font-size: 4rem;
+}
+.section-4 .slider .arrow.next {
+    top: 50%;
+    right:0;
+    margin-right: -55px;
+    font-size: 4rem;
+}
+.section-4 .slider .pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.section-4 .slider .pagination ul li {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.section-4 .slider .pagination ul li.active {
+    background: transparent;
+}
+.section-5 {
+    position: relative;
+    padding-bottom:126px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-5 .rotate {
+    height: 524px;
+    width: 130%;
+    position: absolute;
+    top: -368px;
+    left: -10%;
+    z-index: -1;
+    transform: rotate(-5deg);
+}
+.section-5 .section-5-items .item .bottom-item {
+    padding: 10px 30px;
+}
+.section-5 .section-5-items .item .bottom-item .title h2 {
+    font-size: 2.6rem;
+    margin-bottom:16px;
+    transition: all 0.3s;
+}
+.section-5 .section-5-items .item .bottom-item .title:hover h2 {
+    color: #65c0ba;
+}
+.testimonial {
+    margin-top: 80px;
+}
+.section-6 .testimonial .item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.section-6 .testimonial .item p {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    padding: 20px 30px 0px 0px;
+}
+.section-6 .testimonial .item p.author {
+    color:#6c757d;
+}
+.section-6 .testimonial .item p.author:before {
+    content:"—" ;
+}
+.section-7 .section-heading .title {
+    margin-bottom: 0px;
+}
+.section-7 .section-heading .description{
+    margin-top: 5px;
+}
+.section-7 .section-7-items .item .bottom-item .title h3:hover {
+    color: #65c0ba;
+}
+.section-7 .section-7-items .item .bottom-item .description .review p {
+    color: #ccc;
+    font-style: italic;
+}
+.section-7 .section-7-items .item .top-item img {
+    margin-bottom: 15px;
+    box-shadow: 1px 2px lightgray;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.footer .title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer .row .col-3 a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .row .col-3 ul li {
+    margin-bottom: 15px;
+}
+.footer .row .col-3 span {
+    font-style: italic;
+}
+.footer .row .col-3 p {
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer .row .col-3 .section {
+    margin-bottom: 15px;
+}
+.footer .row .col-3 .address {
+    padding-right: 25px;
+}
+.footer .row .col-3 .form {
+    position: relative;
+}
+.footer .row .col-3 .form input {
+    background: none;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    padding: 19px 50px 15px 15px;
+    color: #fff;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 1.6rem;
+}
+.footer .row .col-3 .form input:focus {
+    border-bottom: 1px solid #fff;
+}
+.footer .row .col-3 .form input::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+    font-style: italic;
+}
+.footer .row .col-3 .form button {
+    background: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.footer .copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 70px;
+    padding: 30px 0;
+}
+.footer .copyright p {
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer .copyright a:hover {
+    color: #fff;
+}
+.footer .social-media a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .social-media a:hover {
+    color: #fff;
+}

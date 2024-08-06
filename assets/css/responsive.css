@@ -1,0 +1,65 @@
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media screen and (max-width:995px) {
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 720px;
+    }
+    .section-1 .section-1-content h1 {
+        font-size: 40px;
+    }
+    .section-1 .section-1-content .subtitle {
+        font-size: 18px;
+    }
+    .col-6 {
+        width:100%;
+    }
+    .col-4 {
+        width:50%;
+    }
+    .col-3 {
+        width:50%;
+    }
+    .section-4 .slider .arrow {
+        display: none;
+        }
+    [class^="col-"] {
+            padding-bottom: 30px;
+    }
+}
+@media screen and (max-width:755px) {
+    .container {
+        max-width: 450px;
+    }
+    .col-4 {
+        width:100%;
+    }
+    .col-3 {
+        width:100%;
+    }
+    .section-heading .title {
+        font-size: 2rem;
+    }
+    .section-heading.large .title {
+        font-size: 4rem;
+    }
+    .section-5 {
+        padding-left: 50px;
+        padding-right: 50px;    }
+}
+@media screen and (max-width:575px) {
+    .container {
+        max-width: 80%;
+    }
+    .section-1 .section-1-content {
+        text-align: center
+    }
+    .section-heading.large .title {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,166 @@
+html {
+    font-size: 10px;
+    overflow-x:hidden; 
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection {
+    color: #fff;
+    background: #65c0ba;
+}
+body {
+    font-family:"Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #6c757d;
+    overflow-x:hidden;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface", times, serif;
+    color: #000;
+    font-weight: 500;
+}
+.full-container {
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.white {
+    color: #fff;
+}
+.gray {
+    color: #ced4da;
+}
+.green {
+    color: #65c0ba;
+}
+.bg-white {
+    background-color:#fff;
+}
+.bg-gray {
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+}
+.bg-green {
+    background: #65c0ba;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.text-align {
+    text-align: center;
+}
+.gap-4 {
+    gap: 4px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.fs-12 {
+    font-size: 1.2rem;
+}
+.fs-30 {
+    font-size: 3rem;
+}
+.fs-32 {
+    font-size: 3.2rem;
+}
+.ls2 {
+    letter-spacing: 2px;
+}
+.section-padding {
+    padding-top:126px;
+    padding-bottom:126px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%
+}
+.col-6 {
+    width: 50%
+}
+[class^="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.section-heading {
+    max-width: 740px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading .title {
+    font-size: 3.2rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.section-heading .description {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.section-heading.large .title {
+    font-size: 7rem;
+    line-height: 70px;
+}
+.full-width {
+    width: 100%;
+    height: auto;
+}
